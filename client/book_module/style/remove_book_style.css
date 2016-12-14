@@ -1,0 +1,21 @@
+div.remove-book{
+
+}
+
+div.return-book>table,div.Issue-book>table,div.remove-book>table{
+	border-collapse: collapse;
+}
+
+div.return-book>table th,div.Issue-book>table th
+,div.remove-book>table th{
+
+padding: 10px;
+border: 1px solid #ddd;
+}
+
+div.return-book>table td,div.Issue-book>table td,
+div.remove-book>table td{
+
+padding: 10px;
+border: 1px solid #ddd;
+}	

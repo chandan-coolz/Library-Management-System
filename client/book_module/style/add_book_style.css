@@ -1,0 +1,22 @@
+div.add-book{
+
+text-align: center;
+}
+
+div.add-book>form>div.form-group{
+padding: 10px;
+}
+
+div.add-book>form>div.form-group>label{
+display: inline-block;
+    margin: 10px;
+    width: 100px
+}	
+
+div.add-book>form>div.form-group>input{
+border: 1px solid #ddd;
+}
+
+div.add-book>form>button{
+	margin: 5px;
+}

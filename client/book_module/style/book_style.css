@@ -1,0 +1,47 @@
+div.book{
+
+width: 100%;
+}
+
+div.book>div.head>span{
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+    color: #c0392b;
+}
+
+
+div.book>div.head>nav{
+float: right;
+display: inline-block;
+margin-right: 10px;
+}
+
+@import url("./add_book_style.css");
+
+div.book>div.head>nav>ul{
+list-style: none;
+
+}	
+
+div.book>div.head>nav>ul>li{
+list-style: none;
+display: inline-block;
+padding: 5px;
+background: #8e44ad;
+}
+
+div.book>div.head>nav>ul>li>a{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+div.book>div.content{
+    border: 1px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }  

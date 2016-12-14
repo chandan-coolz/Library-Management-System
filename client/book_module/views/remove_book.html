@@ -1,0 +1,22 @@
+<div class="remove-book">
+
+
+<table >
+
+<thead >
+<tr>
+<th>Book name</th>
+<th>Author name</th>
+</tr>
+</thead>
+<tbody>
+<tr ng-repeat="book in books">
+<td>{{book.name}}</td>
+<td>{{book.author}}</td>
+<td><i class="fa fa-trash-o" aria-hidden="true" ng-click="delete(book)"></i></td>
+</tr>
+</tbody>
+</table>
+
+
+</div>

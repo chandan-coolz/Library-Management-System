@@ -1,0 +1,33 @@
+<div class="return-book">
+
+
+<table >
+
+<thead >
+<tr>
+<th>Book name</th>
+<th>Author name</th>
+</tr>
+</thead>
+<tbody>
+<tr ng-repeat="book in books">
+<td>{{book.name}}</td>
+<td>{{book.author}}</td>
+<td><input type="radio" name="bookToIssue" value="book._id" ng-model="bookToIssue" ng-change="change(book._id)"></td>
+</tr>
+</tbody>
+</table>
+
+<div class="issue-book-container" style="text-align:center;margin: 5px">
+
+<div class="form-group">
+ <label >User ID</label>
+ <input type="text"  placeholder="Enter User Id" ng-model="userID" style="border:1px solid #ddd">
+</div>
+<div class="form-group">
+ <label >Kept Days</label>
+ <input type="text"  placeholder="days" ng-model="days" style="border:1px solid #ddd">
+</div>
+ <button type="submit" style="margin:5px" ng-click="returnBook()">Return</button>
+</div>
+</div>

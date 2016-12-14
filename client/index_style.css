@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+	min-height: 100%;
+    margin : 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+header.main-header{
+
+    position: relative;
+    height: 50px;
+    z-index: 6;
+    background-color: #3c8dbc;
+    text-align: center;
+}
+header.main-header>span.logo{
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+ }   

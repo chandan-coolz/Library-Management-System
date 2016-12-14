@@ -1,0 +1,18 @@
+<div class="add-book">
+<h3>Add Book</h3>
+<form name="book" novalidate role="form">
+
+<div class="form-group">
+ <label >Book Name</label>
+ <input type="text"  placeholder="Enter Book Name" ng-model="book.name">
+</div>
+<div class="form-group">
+ <label >Author Name</label>
+ <input type="text"  placeholder="Enter Author Name" ng-model="book.author">
+</div>
+
+ <button type="submit"  ng-click="submit()">Add</button>
+<br><br>
+<p>{{message}}</p>
+</form>
+</div>
